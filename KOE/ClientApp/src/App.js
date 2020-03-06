@@ -1,18 +1,19 @@
-import React, { Component } from 'react';
-import { Route } from 'react-router';
-import { Layout } from './components/Layout';
-import { Home } from './components/Home';
-import { FetchData } from './components/FetchData';
-import { Counter } from './components/Counter';
-
-import './custom.css'
+import React, { Component } from "react";
+import Event from "./components/Event";
+import Button from "@material-ui/core/Button";
 
 export default class App extends Component {
   static displayName = App.name;
 
-  render () {
-      return (
-          <p>Dusan</p>
+  render() {
+    return (
+      <div>
+        <Event
+          time={100}
+          name={"Tenis"}
+          description={"Potreban mi je partner za tenis danas oko 15h"}
+        />
+      </div>
     );
   }
 }

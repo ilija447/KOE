@@ -1,0 +1,23 @@
+.event {
+  display: flex;
+  flex-direction: column;
+  background-color: ghostwhite;
+  justify-content: space-evenly;
+}
+.eventBody {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.eventWraper {
+  width: 120vh;
+}
+.eventBody1 {
+  flex-grow: 0.8;
+}
+.peopleAttendingEvent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
